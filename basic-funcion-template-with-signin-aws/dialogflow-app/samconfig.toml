@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "dialogflow-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-bhvxkjw7vgje"
+s3_prefix = "dialogflow-app"
+region = "us-east-1"
+capabilities = "CAPABILITY_IAM"

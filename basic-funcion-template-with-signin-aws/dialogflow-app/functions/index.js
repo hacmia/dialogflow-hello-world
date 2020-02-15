@@ -1,6 +1,5 @@
 'use strict';
 const { dialogflow,SimpleResponse,BasicCard,Image,Suggestions,MediaObject,SignIn,Permission } = require('actions-on-google');
-const functions = require('firebase-functions');
 const app = dialogflow({debug:true, clientId: '<<CLIENT_ID>>'});
 
 // https://7bb8f9be.ngrok.io/sample-nfwbyf/us-central1/dialogflowFirebaseFulfillment
@@ -65,4 +64,4 @@ app.intent('Get Signin', (conv, params, signin) => {
     }
 });
 
-exports.dialogflowFirebaseFulfillment = functions.https.onRequest(app);
+exports.dialogflowFirebaseFulfillment = app;
