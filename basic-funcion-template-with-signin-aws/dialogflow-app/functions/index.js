@@ -1,6 +1,6 @@
 'use strict';
 const { dialogflow,SimpleResponse,BasicCard,Image,Suggestions,MediaObject,SignIn,Permission } = require('actions-on-google');
-const app = dialogflow({debug:true, clientId: '<<CLIENT_ID>>'});
+const app = dialogflow({debug:true, clientId: '642025451074-tgg0qsbj9hc3nutmb20rlmr5ks17pnkt.apps.googleusercontent.com'});
 
 // https://7bb8f9be.ngrok.io/sample-nfwbyf/us-central1/dialogflowFirebaseFulfillment
 // https://us-central1-sample-nfwbyf.cloudfunctions.net/dialogflowFirebaseFulfillment
